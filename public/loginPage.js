@@ -17,7 +17,7 @@ newUser.registerFormCallback = data => {
     if (fn.success) {
       location.reload()
     } else {
-      newUser.setLoginErrorMessage(fn.error)
+      newUser.setRegisterErrorMessage(fn.error)
     }
   })
 }
